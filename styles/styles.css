@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add your preferred styling for the banner background */
+.banner {
+    height: 300px; /* Set the height of the banner as needed */
+}
+
+.content h1 {
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin: 0;
+}
