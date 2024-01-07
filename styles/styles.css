@@ -7,20 +7,24 @@ body {
 .banner {
     position: relative;
     text-align: center;
+  
 }
+
 
 .content {
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
+    width: 80%;
 }
 
 .banner img {
     max-width: 100%;
     height: auto;
+    filter: brightness(70%) contrast(70%);
 }
 
 /* Add your preferred styling for the banner background */
@@ -30,8 +34,10 @@ body {
 
 .content h1 {
     margin-bottom: 10px;
+    font-size: 4em; /* Adjust the font size as needed */
 }
 
 .content p {
     margin: 0;
+    font-size: 2em; /* Adjust the font size as needed */
 }
