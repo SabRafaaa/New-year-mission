@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.banner,.second-section  {
+.banner,.second-section, .third-section  {
     position: relative;
     text-align: center;
   
@@ -21,14 +21,14 @@ body {
     width: 80%;
 }
 
-.banner img, .second-section img {
+.banner img, .second-section img{
     max-width: 100%;
     height: auto;
     
 }
 
 .banner img {
-    filter: brightness(70%) contrast(70%); /* Adjust the values as needed */
+    filter: brightness(80%) contrast(80%); /* Adjust the values as needed */
 }
 
 
@@ -50,7 +50,7 @@ body {
 /*second*/
 .second-section {
     text-align: center;
-    padding: 300px;
+    padding-top: 300px;
 }
 
 .second-section h1 {
@@ -70,6 +70,59 @@ body {
     font-size: 4em;
     font-weight: bold;
 
+}
+
+
+.third-section {
+    color: #fff;
+    padding: 50px; /* Adjust the padding as needed */
+   
+}
+
+.third-image{
+     filter: brightness(80%) contrast(80%); /* Adjust the values as needed */
+}
+
+.text-content {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(0, -50%);
+}
+
+.text-content h2 {
+    font-size: 2.5em;
+}
+
+.text-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.text-content button {
+    font-size: 1.2em;
+    background-color: #ff6666; /* Lighter shade of red */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.text-content button:hover {
+    background-color: red;
+}
+
+.third-section img {
+    max-width: 100%;
+    max-height: 90%; 
+    
+}
+
+.right-image {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0, -50%);
 }
 
 
