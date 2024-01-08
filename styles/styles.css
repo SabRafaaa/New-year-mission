@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.banner {
+.banner,.second-section  {
     position: relative;
     text-align: center;
   
@@ -21,11 +21,16 @@ body {
     width: 80%;
 }
 
-.banner img {
+.banner img, .second-section img {
     max-width: 100%;
     height: auto;
-    filter: brightness(70%) contrast(70%);
+    
 }
+
+.banner img {
+    filter: brightness(70%) contrast(70%); /* Adjust the values as needed */
+}
+
 
 /* Add your preferred styling for the banner background */
 .banner {
@@ -45,31 +50,27 @@ body {
 /*second*/
 .second-section {
     text-align: center;
-    padding: 20px;
+    padding: 300px;
 }
 
-.red-heading {
+.second-section h1 {
     color: red;
     font-size: 5em;
     font-weight: bolder;
 }
 
-.lighter-red-heading {
+.second-section h2{
     color: #ff6666; /* Lighter shade of red */
     font-size: 2.5em;
    font-weight: 500;
 }
 
-.black-heading {
+.second-section h3 {
     color: black;
     font-size: 4em;
     font-weight: bold;
 
 }
 
-.second-section img {
-    max-width: 100%;
-    height: auto;
-    filter: brightness(100%) contrast(100%);
-}
+
 
