@@ -41,3 +41,35 @@ body {
     margin: 0;
     font-size: 2em; /* Adjust the font size as needed */
 }
+
+/*second*/
+.second-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.red-heading {
+    color: red;
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+.lighter-red-heading {
+    color: #ff6666; /* Lighter shade of red */
+    font-size: 2.5em;
+   font-weight: 500;
+}
+
+.black-heading {
+    color: black;
+    font-size: 4em;
+    font-weight: bold;
+
+}
+
+.second-section img {
+    max-width: 100%;
+    height: auto;
+    filter: brightness(100%) contrast(100%);
+}
+
