@@ -28,24 +28,24 @@ body {
 }
 
 .banner img {
-    filter: brightness(80%) contrast(80%); /* Adjust the values as needed */
+    filter: brightness(80%) contrast(80%); 
 }
 
 
-/* Add your preferred styling for the banner background */
+
 .banner {
-    height: 300px; /* Set the height of the banner as needed */
+    height: 300px; 
 }
 
 .content h1 {
     margin-bottom: 10px;
-    font-size: 4em; /* Adjust the font size as needed */
+    font-size: 4em; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .content p {
     margin: 0;
-    font-size: 2em; /* Adjust the font size as needed */
+    font-size: 2em; 
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -63,7 +63,7 @@ body {
 }
 
 .second-section h2{
-    color: #ff6666; /* Lighter shade of red */
+    color: #ff6666; 
     font-size: 2.5em;
    font-weight: 500;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -80,12 +80,12 @@ body {
 
 .third-section {
     color: #fff;
-    padding: 50px; /* Adjust the padding as needed */
+    padding: 50px; 
    
 }
 
 .third-image{
-     filter: brightness(80%) contrast(60%); /* Adjust the values as needed */
+     filter: brightness(80%) contrast(60%); 
 }
 
 .text-content {
@@ -98,11 +98,11 @@ body {
 .text-content h2 {
     font-size: 4.5em;
     text-align: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia;
 }
 
 .text-content p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
     font-size: 1.5em;
     margin-bottom: 20px;
     text-align: left;
@@ -110,7 +110,7 @@ body {
 
 .text-content button {
     font-size: 1.2em;
-    background-color: black; /* Lighter shade of red */
+    background-color: black; 
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -139,24 +139,29 @@ body {
 
 .fourth-section {
     color: #000;
-    padding: 70px; /* Adjust the padding as needed */
+    padding: 70px; 
 }
 
 .fourth-section p {
-    font-size: 2em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px 0;
-    font-weight: 400;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+
 }
 
 .fourth-section .red-text {
     color: red;
+    font-size: larger;
     font-weight: bold;
 }
 
 .fourth-section button {
     font-size: 1.2em;
-    background-color: red; /* Pink color */
+    background-color: red; 
     color: #fff;
     padding: 10px 20px;
     margin-top: 20px;
@@ -165,17 +170,17 @@ body {
 }
 
 .fourth-section button:hover {
-    background-color: #ff66a3; /* Darker shade of pink */
+    background-color: #ff66a3; 
 }
 
 
-/* Previous CSS remains unchanged */
+
 
 .fifth-section {
     display: flex;
     align-items: center;
     padding: 50px;
-    background-color: white; /* Adjust the background color as needed */
+    background-color: white; 
 }
 
 .left-content, .center-content, .right-content {
@@ -183,13 +188,47 @@ body {
     text-align: center;
 }
 
+.red-p{
+    color: #F00;
+
+    
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.coming {
+    color: #070211;
+
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+
+.embrace {
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+margin-left: 60px;
+}
 .center-content{
     margin-left: 250px;
 }
 
 .red-circle {
-    width: 210px; /* Adjust the size of the red circle */
-    height: 220px; /* Adjust the size of the red circle */
+    width: 210px; 
+    height: 220px; 
     background-color: red;
     border-radius: 50%;
     display: flex;
@@ -200,8 +239,8 @@ body {
 }
 
 .white-circle {
-    width: 190px; /* Adjust the size of the white circle */
-    height: 190px; /* Adjust the size of the white circle */
+    width: 190px; 
+    height: 190px; 
     background-color: white;
     border-radius: 50%;
     display: flex;
@@ -217,6 +256,208 @@ body {
     max-width: 85%;
     height: auto;
     border-radius: 50%;
-    z-index: 1; /* Ensure the image is above the white circle */
+    z-index: 1; 
     
 }   
+
+
+.year{
+    color: #F00;
+
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+.hurry{
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+.intro-section {
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.intro-section h1 {
+    color: #070211;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.intro-section p{
+    color: rgba(7, 2, 17, 0.60);
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.holiday-sale {
+    font-size: 1.5em;
+}
+
+.red-text {
+    color: #F00;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.black-text {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.sixth-section {
+    position: relative;
+    height: 400px; 
+    overflow: hidden;
+    
+    padding-top: 200px;
+   
+}
+
+.background-image {
+    position: relative;
+    text-align: center;
+    
+   
+}
+
+.background-image img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 100px;
+   
+    
+}
+
+.box-image, .red50-image {
+    position: absolute;
+    top: 15%;
+    transform: translateY(-50%);
+}
+
+.box-image img, .red50-image img {
+    max-width: 80%;
+    height: auto;
+}
+
+.box-image {
+    left: 0;
+   
+}
+
+.red50-image {
+    right: 0;
+    
+    margin-right: 53px;
+    transform: translateY(-88%);
+}
+
+.extra-image {
+    position: absolute;
+    top: 20%; 
+    right: 65%; 
+    width: 250px;
+    height: auto;
+}
+
+
+
+.seventh-section {
+    text-align: center;
+    padding: 50px;
+    background-color: white; /* Set the background color as needed */
+}
+
+.section-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    
+    
+}
+
+.seventh-section h2 {
+    color: #333; /* Set the color as needed */
+}
+
+.image-grid {
+  
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.image-row {
+    
+    margin-bottom: 20px;
+}
+
+.hover-image {
+    width: 300px; 
+    height: auto;
+    margin: 0 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.hover-image:hover {
+    transform: scale(1.1);
+}
+
+.section-content h2{
+    color: #F00;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.section-content h3{
+    color: #070211;
+
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.section-content p{
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+}
