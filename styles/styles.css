@@ -38,18 +38,30 @@ body {
 }
 
 .content h1 {
-    margin-bottom: 10px;
-    font-size: 4em; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: 95px;
 }
 
 .content p {
-    margin: 0;
-    font-size: 2em; 
-    font-family: 'Times New Roman', Times, serif;
+    color: #FFF;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
-/*second*/
+
+
+/*2nd*/
 .second-section {
     text-align: center;
     padding-top: 300px;
@@ -78,6 +90,7 @@ body {
 }
 
 
+/*3rd*/
 .third-section {
     color: #fff;
     padding: 50px; 
@@ -136,6 +149,7 @@ body {
 }
 
 
+/*4th*/
 
 .fourth-section {
     color: #000;
@@ -175,6 +189,7 @@ body {
 
 
 
+/*5th*/
 
 .fifth-section {
     display: flex;
@@ -333,6 +348,10 @@ line-height: normal;
     font-weight: 900;
     line-height: normal;
 }
+
+
+
+/*6th*/
 .sixth-section {
     position: relative;
     height: 400px; 
@@ -390,14 +409,16 @@ line-height: normal;
 
 
 
+/*7th section*/
 .seventh-section {
     text-align: center;
     padding: 50px;
-    background-color: white; /* Set the background color as needed */
+    background-color: white; 
+    margin: 50px;
+    
 }
-
 .section-content {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     text-align: left;
     
@@ -405,7 +426,7 @@ line-height: normal;
 }
 
 .seventh-section h2 {
-    color: #333; /* Set the color as needed */
+    color: #333; 
 }
 
 .image-grid {
@@ -460,4 +481,101 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: 32px; 
+}
+
+
+
+/*8th*/
+.eighth-section {
+    background-color: rgba(255, 0, 0, 0.05); 
+    text-align: center;
+    padding: 80px;
+    margin: 80px;
+}
+
+.eighth-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.eighth-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.eighth-content h2 {
+    
+    color: #070211;
+
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.eighth-content p {
+    color: #666; 
+}
+
+.subscribe-bar {
+    margin-top: 20px;
+    position: relative;
+}
+
+.email-input {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 20px 0 0 20px; 
+    outline: none; 
+}
+
+.subscribe-button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0; 
+    cursor: pointer;
+}
+
+
+.footer {
+    background-color: #333; 
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
+
+.address{
+    margin-bottom: 10px;
+}
+.row-1{
+    display: flex;
+    justify-content: space-between;
+}
+.call, .web{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.footer-top-left, .footer-bottom-left {
+    text-align: left;
+}
+
+.footer-top-right, .footer-bottom-right {
+    text-align: right;
+}
+
+.footer-bottom-left{
+    margin-top: 20px;
+}
+.footer-center img {
+    max-width: 50px; 
+    margin: 0 10px; 
 }
