@@ -167,3 +167,56 @@ body {
 .fourth-section button:hover {
     background-color: #ff66a3; /* Darker shade of pink */
 }
+
+
+/* Previous CSS remains unchanged */
+
+.fifth-section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: white; /* Adjust the background color as needed */
+}
+
+.left-content, .center-content, .right-content {
+    flex: 1;
+    text-align: center;
+}
+
+.center-content{
+    margin-left: 250px;
+}
+
+.red-circle {
+    width: 210px; /* Adjust the size of the red circle */
+    height: 220px; /* Adjust the size of the red circle */
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.white-circle {
+    width: 190px; /* Adjust the size of the white circle */
+    height: 190px; /* Adjust the size of the white circle */
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+   
+}
+
+
+
+.round-image {
+    max-width: 85%;
+    height: auto;
+    border-radius: 50%;
+    z-index: 1; /* Ensure the image is above the white circle */
+    
+}   
